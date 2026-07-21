@@ -46,6 +46,8 @@
   .book-card .icon-badge { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 16px; }
   .book-card.c-coral .icon-badge { background: rgba(242,150,92,.16); color: var(--coral); }
   .book-card.c-cold .icon-badge { background: rgba(111,168,224,.16); color: var(--cold); }
+  .book-card.c-teal .icon-badge { background: rgba(63,201,176,.16); color: var(--teal); }
+  .book-card.c-violet .icon-badge { background: rgba(183,156,240,.16); color: var(--violet); }
   .book-card h3 { font-size: 21px; margin: 0 0 8px; }
   .book-card p { color: var(--mist); font-size: 13.5px; line-height: 1.7; margin: 0 0 16px; }
   .book-card .topics { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
@@ -59,27 +61,39 @@
 <body>
 
 <div class="hero">
-  <a class="back" href="https://wmfsljy-coder.github.io/science-teacher-hub/">← 지구과학 교사 웹툴 모음</a>
+  <a class="back" href="https://wmfsljy-coder.github.io/science-teacher-hub/">← 지구과학 웹툴</a>
   <span class="eyebrow">고등학교 지구시스템과학 · 인터랙티브 학습 도구</span>
   <h1 class="display">지구시스템과학<br>관측 스테이션</h1>
-  <p>지구시스템과학은 1권과 2권으로 나뉘며, 지구의 탄생과 진화, 판 구조 운동, 해수와 대기의 운동을 다룹니다. 아래에서 학습할 책을 선택하세요.</p>
+  <p>지구의 탄생과 진화부터 판 구조 운동, 해수와 대기의 운동까지 4개 단원으로 구성되어 있습니다. 아래에서 학습할 단원을 선택하세요.</p>
 </div>
 
 <div class="grid">
-  <a class="book-card c-coral" href="https://wmfsljy-coder.github.io/earth-system-1/">
+  <a class="book-card c-coral" href="https://wmfsljy-coder.github.io/earth-system-1/1-1/">
     <div class="icon-badge">🌋</div>
-    <h3 class="display">지구시스템과학1</h3>
-    <p>지구 탄생과 생동하는 지구를 다룹니다. 지구의 탄생부터 물질의 순환, 판구조론과 플룸구조론, 지구 내부 구조까지 학습합니다.</p>
-    <div class="topics"><span>지구의 탄생</span><span>물질 순환</span><span>판구조론</span><span>지구 내부 구조</span></div>
-    <span class="status-pill">● 2개 단원 완성</span>
+    <h3 class="display">지구의 탄생과 진화</h3>
+    <p>지구의 탄생부터 산소 농도의 진화, 탄소와 물의 순환까지 오늘의 지구가 만들어지기까지의 여정을 다룹니다.</p>
+    <div class="topics"><span>지구의 탄생</span><span>산소 농도의 진화</span><span>탄소와 물의 순환</span></div>
     <div class="go">→</div>
   </a>
-  <a class="book-card c-cold" href="https://wmfsljy-coder.github.io/earth-system-2/">
+  <a class="book-card c-teal" href="https://wmfsljy-coder.github.io/earth-system-1/1-2/">
+    <div class="icon-badge">🗻</div>
+    <h3 class="display">판 구조 운동과<br>지구 내부 구조</h3>
+    <p>판구조론과 플룸구조론, 화산 활동과 암석의 순환, 지진파로 밝혀낸 지구 내부 구조를 다룹니다.</p>
+    <div class="topics"><span>판구조론·플룸구조론</span><span>화산 활동</span><span>지진파</span></div>
+    <div class="go">→</div>
+  </a>
+  <a class="book-card c-cold" href="https://wmfsljy-coder.github.io/earth-system-2/2-1/">
     <div class="icon-badge">🌊</div>
-    <h3 class="display">지구시스템과학2</h3>
-    <p>해수의 운동, 강수 과정과 대기의 운동을 다룹니다. 지형류, 해파, 조석부터 대기 안정도, 지균풍, 행성파, 대기권 층상 구조까지 학습합니다.</p>
-    <div class="topics"><span>지형류</span><span>해파·조석</span><span>대기 안정도</span><span>행성파</span><span>대기의 역할</span></div>
-    <span class="status-pill">● 2개 단원 완성</span>
+    <h3 class="display">해수의 운동</h3>
+    <p>해수를 움직이는 힘부터 해파, 해일과 조석까지 바다를 움직이는 힘을 다룹니다.</p>
+    <div class="topics"><span>해수를 움직이는 힘</span><span>해파</span><span>해일과 조석</span></div>
+    <div class="go">→</div>
+  </a>
+  <a class="book-card c-violet" href="https://wmfsljy-coder.github.io/earth-system-2/2-2/">
+    <div class="icon-badge">🌬️</div>
+    <h3 class="display">강수 과정과<br>대기의 운동</h3>
+    <p>지구 대기의 역할과 열수지, 대기 안정도와 강수, 대기를 움직이는 힘과 행성파까지 다룹니다.</p>
+    <div class="topics"><span>대기의 역할</span><span>대기 안정도</span><span>대기를 움직이는 힘</span><span>행성파</span></div>
     <div class="go">→</div>
   </a>
 </div>
